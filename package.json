@@ -1,0 +1,27 @@
+{
+  "name": "@metrc/sdk",
+  "version": "0.1.0",
+  "description": "Unofficial Metrc TypeScript SDK (generated resources + RetailID utilities)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "dev": "tsc -w -p tsconfig.json",
+    "gen": "tsx scripts/gen-sdk.ts",
+    "demo": "tsx examples/demo.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.2"
+  },
+  "private": true,
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js"
+    }
+  }
+}
