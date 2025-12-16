@@ -1,6 +1,8 @@
 ## Spin off of retail id sdk
 Demo for potential fork of the retailid-sdk that would also wrap the metrc API functionality managing shared auth for api calls and would offer intellisense for the metrc methods
 
+Does not currently include full functionality, more a stub to test enthusiasm for the project
+
 ### Original Retail ID functionality
 ```typescript
 // Encode a batch ID and index to a short URL
