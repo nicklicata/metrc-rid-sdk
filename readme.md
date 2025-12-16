@@ -1,4 +1,5 @@
 ## Spin off of retail id sdk
+Demo for potential fork of the retailid-sdk that would also wrap the metrc API functionality managing shared auth for api calls and would offer intellisense for the metrc methods
 
 ### Original Retail ID functionality
 ```typescript
